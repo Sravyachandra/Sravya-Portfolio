@@ -12,7 +12,15 @@ const Hero = () => {
   };
 
   const handleDownloadResume = () => {
-    console.log('Download resume clicked');
+    // Create an anchor element
+    const link = document.createElement('a');
+    link.href = '/resume.pdf'; // Path to the file in the public directory
+    link.download = 'Chandra_Sravya_Resume.pdf'; // Name the file will be downloaded as
+    
+    // Append to body, click, and remove
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   const highlights = [
