@@ -15,14 +15,14 @@ const Certifications = () => {
     {
       title: 'Python for Data Analysis and Visualization',
       issuer: 'Vellore Institute of Technology',
-      date: '2024',
+      date: '2025',
       description: 'VAC2006 - Comprehensive course on data analysis and visualization with Python, covering advanced techniques for extracting insights from complex datasets.',
       type: 'Course',
     },
     {
       title: 'IBM Python Certification',
       issuer: 'IBM',
-      date: '2024',
+      date: '2025',
       description: 'PY0101EN - Fundamental Python programming certification covering core concepts, data structures, and best practices for writing efficient Python code.',
       type: 'Certification',
     },
