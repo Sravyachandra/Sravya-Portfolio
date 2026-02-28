@@ -29,7 +29,7 @@ const Skills = () => {
       icon: Database,
       title: 'Databases & Cloud',
       color: 'red',
-      skills: ['MySQL', 'MongoDB', 'AWS Fundamentals', 'Database Design'],
+      skills: ['MySQL', 'AWS Fundamentals', 'Database Design'],
     },
     {
       icon: Wrench,
